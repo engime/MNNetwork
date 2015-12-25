@@ -21,7 +21,6 @@ static NSString * const FORM_FLE_INPUT = @"file";
 + (void)POST:(NSURL *)url params:(NSString *)params completionHandler:(void (^ _Nonnull)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler{
 
     
-    // 创建请求
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url
                                                                cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10];
     
@@ -40,7 +39,6 @@ static NSString * const FORM_FLE_INPUT = @"file";
 + (void)GET:(NSURL *)url params:(NSString *)params completionHandler:(void (^ _Nonnull)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler{
     
     
-    // 创建请求
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url
                                                                cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10];
     
