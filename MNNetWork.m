@@ -10,8 +10,7 @@
 #import "MNNetWork.h"
 
 @interface MNNetWork()
-//@property (nonatomic, strong) NSArray *trustedCerArr;
-//@property (nonatomic, strong) NSURLSession *session;
+
 @end
 
 @implementation MNNetWork
